@@ -1,0 +1,19 @@
+availability-tracker:
+  zipcode: 98121
+  notification:
+    enabled: false
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: some-email@gmail.com
+    password: password
+    properties:
+      mail.smtp:
+        auth: true
+        starttls:
+          enable: true
+
+email-notification:
+  to: some-recipient@gmail.com
